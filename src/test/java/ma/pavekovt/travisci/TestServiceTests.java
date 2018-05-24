@@ -1,3 +1,5 @@
+package ma.pavekovt.travisci;
+
 import static org.assertj.core.api.Java6Assertions.assertThat;
 
 import me.pavekovt.travisci.TestService;
