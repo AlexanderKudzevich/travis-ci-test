@@ -18,6 +18,11 @@ public class VehicleController {
   @Autowired
   private VehicleService vehicleService;
 
+  @GetMapping(value = "/hello/{name}")
+  public String hello(@PathVariable("name") String name) {
+    return "Hello pidr with name: " + name;
+  }
+
   @GetMapping(value = "/{number}")
   public Vehicle getCar(@PathVariable(value = "number") String number) {
     return vehicleService.findByNumberPlate(number);
