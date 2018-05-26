@@ -9,7 +9,8 @@ jobs:
       script: mvn verify
     - stage: verify
       script: mvn verify
-    - deploy:
+    - stage: deploy
+      deploy:
         provider: heroku
         api_key:
           secure: "dfb6b9de-0385-479a-9579-6dc0861df82d"
