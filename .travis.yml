@@ -9,5 +9,3 @@ jobs:
       script: mvn verify
     - stage: verify
       script: mvn verify
-    - stage: test
-      script: "curl http://www.google.com"
