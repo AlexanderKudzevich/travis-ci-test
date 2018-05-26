@@ -6,7 +6,7 @@ import me.pavekovt.travisci.models.Vehicle;
 import org.junit.Test;
 
 public class VehicleTests {
-  
+
   @Test
   public void vehicleHasCorrectModelSet() {
     final String expectedModel = "Skoda";
